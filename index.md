@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "印象笔记"
-  text: "一个vitepress文档"
+  name: "知识库"
+  # text: "一个vitepress文档"
   tagline: Day Day Up
   image: 
     src: "/backend.png"

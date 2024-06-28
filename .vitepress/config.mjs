@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/note/',
-  title: "知识宝库",
+  title: "知识库",
   description: "一个vitepress文档",
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
   themeConfig: {
