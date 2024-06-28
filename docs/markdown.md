@@ -109,15 +109,60 @@
 
     效果如下:
     ***
-11. 任务列表
+11. 自定义容器(info、tip、warning、danger、details)
 
-- [×] 未完成任务  
-- [√] 已完成任务
 
-  ```md
-    [×] 未完成任务  
-    [√] 已完成任务
-  ```
+     ::: brand
+      This is an brand box.
+     :::
+
+    ```md
+      ::: info
+      This is an info box.
+      :::
+    ```
+      ::: info
+      This is an info box.
+      :::
+
+    ```md
+      ::: tip
+      This is a tip.
+      :::
+    ```
+    ::: tip
+    This is a tip.
+    :::
+
+    ```md
+      ::: warning
+      This is a warning.
+      :::
+    ```
+      ::: warning
+      This is a warning.
+      :::
+    
+    ```md
+      ::: danger
+      This is a dangerous warning.
+      :::
+    ```
+      ::: danger
+      This is a dangerous warning.
+      :::
+
+
+    ```md
+      ::: details
+      This is a details block.
+      :::
+    ```
+      ::: details
+      This is a details block.
+      :::
+
+
 
         
 
