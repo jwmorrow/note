@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/note/',
-  title: "印象笔记",
+  title: "知识宝库",
   description: "一个vitepress文档",
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
   themeConfig: {
@@ -46,7 +46,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '示例', link: '/markdown-examples' }
+      { text: 'markdown', link: '/docs/markdown' }
     ],
     // sidebar:{"/front": set_sidebar("front")},
     socialLinks: [
