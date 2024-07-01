@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: 前端
-      link: /docs/前端
+      link: /docs/前端/HTML-CSS/页面布局
     - theme: alt
       text: Markdown
-      link: /docs/markdown
+      link: /markdown
 
 
 features:

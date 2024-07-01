@@ -4,7 +4,6 @@ import { set_sidebar } from "./components/auto-gen-sidebar.mjs"
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/note/',
-  lang: "zh",
   title: "知识库",
   description: "一个vitepress文档",
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
@@ -63,8 +62,8 @@ export default defineConfig({
     //首页导航
     nav: [
       { text: '主页', link: '/' },
-      { text: '前端', link: '/docs/前端' },
-      { text: 'markdown', link: '/docs/markdown' }
+      { text: 'markdown', link: '/markdown' },
+      { text: '前端', link: '/docs/前端/HTML-CSS/页面布局' }
     ],
     //左边导航
     sidebar: { "/docs": set_sidebar("/docs") },
