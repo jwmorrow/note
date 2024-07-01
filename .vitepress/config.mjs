@@ -7,7 +7,6 @@ export default defineConfig({
   lang: "zh",
   title: "知识库",
   description: "一个vitepress文档",
-
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
   markdown: {
     container: {

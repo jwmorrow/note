@@ -4,18 +4,19 @@ layout: home
 
 hero:
   name: "知识库"
-  # text: "一个vitepress文档"
-  tagline: Day Day Up
+  text: "vitepress文档"
+  # tagline: yyds
   image: 
     src: "/backend.png"
     alt: 背景图
   actions:
     - theme: brand
-      text: Markdown
-      link: /markdown-examples
+      text: 前端
+      link: /docs/前端
     - theme: alt
-      text: API
-      link: /api-examples
+      text: Markdown
+      link: /docs/markdown
+
 
 features:
   - title: 性能优势
