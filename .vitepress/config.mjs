@@ -7,6 +7,7 @@ export default defineConfig({
   lang: "zh",
   title: "知识库",
   description: "一个vitepress文档",
+
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
   markdown: {
     container: {
@@ -15,9 +16,10 @@ export default defineConfig({
       dangerLabel: '危险',
       infoLabel: '信息',
       detailsLabel: '详细信息'
-    }
+    },
   },
   themeConfig: {
+    prev: '上一页',
     // 更新时间的显示
     lastUpdated: {
       text: '更新于',
@@ -55,22 +57,29 @@ export default defineConfig({
     },
     outlineTitle: "文章目录",
     outline: [2, 6],
-    sidebar: false, // 关闭侧边栏
-    aside: "left", // 设置右侧侧边栏在左侧显示
+    // sidebar: false, // 关闭侧边栏
+    // aside: "left", // 设置右侧侧边栏在左侧显示
     logo: "logo.png",
     // https://vitepress.dev/reference/default-theme-config
+    //首页导航
     nav: [
       { text: '主页', link: '/' },
-      { text: '前端', link: '/docs/web' },
+      { text: '前端', link: '/docs/前端' },
       { text: 'markdown', link: '/docs/markdown' }
     ],
-    //sidebar: { "/front": set_sidebar("/docs") },
+    //左边导航
+    sidebar: { "/docs": set_sidebar("/docs") },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],
     footer: {
       message: 'Released under the Morrow License.',
       copyright: 'Copyright © 2024-present Evan You'
+    },
+    docFooter: {
+      prev: '上一页', // 上一页的中文文本  
+      next: '下一页'  // 下一页的中文文本  
+      // 其他页脚配置...  
     },
     notFound: { // 404页
       title: '未找到页面，迷路了~',
